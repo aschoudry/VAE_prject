@@ -13,10 +13,10 @@ The model is trained using stochastic gradient descent with a learning rate of 0
 The trained VAE is evaluated on downstream tasks such as cancer classification and progression analysis. The compressed latent representation obtained from the VAE is used as input for these tasks. The performance of the VAE is compared to other compression methods and evaluated using appropriate metrics.
 
 # Requirements
-Python 3.7
-PyTorch
-Pandas
-NumPy
+  Python 3.7
+  PyTorch
+  Pandas
+  NumPy
 
 # Usage
 To train the VAE, run the train.py script with the appropriate arguments. The trained model will be saved in the saved_models directory. To evaluate the VAE, run the evaluate.py script with the appropriate arguments.
