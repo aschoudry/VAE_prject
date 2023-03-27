@@ -9,7 +9,7 @@ The VAE architecture used in this project consists of an encoder and a decoder n
 # Training
 The model is trained using stochastic gradient descent with a learning rate of 0.001 and a batch size of 64. The loss function is a combination of the reconstruction error and the KL divergence of the latent distribution from a Gaussian prior. The model is trained for 100 epochs and the best performing model is saved.
 
-# Evaluation
+## Evaluation
 The trained VAE is evaluated on downstream tasks such as cancer classification and progression analysis. The compressed latent representation obtained from the VAE is used as input for these tasks. The performance of the VAE is compared to other compression methods and evaluated using appropriate metrics.
 
 # Requirements
